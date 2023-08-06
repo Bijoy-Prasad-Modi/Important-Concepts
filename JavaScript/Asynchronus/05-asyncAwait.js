@@ -1,4 +1,4 @@
-// In this case we will will create and icecream ordering system using async await
+// In this case we will will create an await keyword inside an Async function
 //
 
 let stocks = {
