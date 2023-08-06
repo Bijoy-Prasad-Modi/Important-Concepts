@@ -1,4 +1,4 @@
-// In this case we will will create an await keyword inside an Async function
+// In this case we will will use an await inside an Async function
 //
 
 let stocks = {
