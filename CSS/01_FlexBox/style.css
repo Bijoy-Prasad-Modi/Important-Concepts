@@ -1,0 +1,57 @@
+.flex-container{
+    border : 2px solid #ccc;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* justify-content: flex-start ;
+    /*justify-content: flex-end ; */
+    /*flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse;*/ 
+    /* flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    height: 45vh; */
+    align-items: center;
+    /* align-items: flex-start; */
+    /* align-items: flex-end; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    flex-flow: row  ;
+}
+.flex-item{
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+    width : 122px;
+    height: 122px;
+    /* flex: 1 1 0;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; */
+}
+.flex-item:hover{
+    box-shadow: 0 0 10px #ccc;
+    transform: scale(1.1);
+}
+/* .flex-item:active{
+    box-shadow: 0 0 5px #cf823fbb;
+    transform: scale(1);
+} */
+
+.item1{
+    order: 5; /*item 1 will be at end as it's order is 5,which is highest in the list */
+    /* flex-grow: 3; */
+    flex-shrink: 2;
+}
+.item3{
+    order: 6; /* Now item 3 will be at end as it's order is 6,which is highest in the list */
+}
